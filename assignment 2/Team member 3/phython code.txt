@@ -1,0 +1,17 @@
+//python coding
+
+import random
+temp=random.randint(1,100)
+hum=random.randint(1,100)
+temperature=int(input("Enter the temperature:"))
+humidity=int(input("Enter the humidity:"))
+if temp>50:
+    print("temp is high")
+       if hum>80:
+          print("it is hot")
+        else:
+           print("it is cold")
+        else:
+          print("temp is low")
+
+             
